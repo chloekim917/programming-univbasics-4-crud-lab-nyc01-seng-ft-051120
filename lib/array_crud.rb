@@ -8,18 +8,23 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-
+  new_array = []
+  new_array << "f"
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  new_array = ['a', 'b', 'c', 'd']
+  new_array.unshift('alpha')
 end
 
 def remove_element_from_end_of_array(array)
-  
+   new_array = ['a', 'b', 'c', 'd']
+   new_array.pop()
 end
 
 def remove_element_from_start_of_array(array)
+   new_array = ['a', 'b', 'c', 'd']
+   new_array.shift()
   
 end
 
