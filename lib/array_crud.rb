@@ -48,6 +48,6 @@ end
 
 def update_element_from_index(array, index_number, element)
    new_array = ['a', 'b', 'c', 'd']
-   
+   new_array[index_number] = "new"
 
 end
